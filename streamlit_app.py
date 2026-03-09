@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import statsmodels.api as sm
 
 # 1. Page Configuration
 st.set_page_config(page_title="EU Drug & Happiness Analysis", layout="wide")
